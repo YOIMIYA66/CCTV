@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +7,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            font-family: 'SimSun', serif;
+            font-family: '宋体', 'SimSun', serif;
             line-height: 1.8;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
         }
 
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 20px auto;
             background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
         .header {
             text-align: center;
-            border-bottom: 2px solid #c70000;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #c70000;
         }
 
         .header h1 {
-            font-size: 2.5em;
+            font-size: 2.8em;
             margin: 0;
             color: #c70000;
-        }
-
-        .header h2 {
-            font-size: 1.5em;
-            margin-top: 10px;
-            color: #555;
+            font-weight: bold;
         }
 
         .content {
@@ -46,22 +41,28 @@
         }
 
         .article-title {
-            font-size: 1.8em;
+            font-size: 2em;
             font-weight: bold;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             color: #c70000;
         }
 
-        .article-subtitle {
-            font-size: 1.2em;
-            margin-bottom: 15px;
-            color: #555;
+        .text-section {
+            margin-bottom: 25px;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        .text-section p {
+            margin-bottom: 20px;
+            line-height: 1.8;
         }
 
         .photo-gallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            margin-bottom: 30px;
         }
 
         .photo-gallery div {
@@ -72,106 +73,160 @@
         .photo-gallery img {
             width: 100%;
             height: auto;
-            border: 1px solid #ccc;
+            border: 1px solid #ddd;
             padding: 5px;
-            background-color: #fff;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .photo-gallery img:hover {
+            transform: scale(1.05);
         }
 
         .caption {
-            font-size: 0.9em;
-            margin-top: 5px;
+            font-size: 0.95em;
+            margin-top: 8px;
             text-align: center;
             color: #666;
-        }
-
-        .text-section {
-            margin-bottom: 20px;
         }
 
         .footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-            border-top: 2px solid #c70000;
+            padding: 20px;
+            margin-top: 30px;
+            border-top: 3px solid #c70000;
+            font-size: 0.9em;
+        }
+
+        .divider {
+            border-bottom: 2px solid #ddd;
+            margin: 40px 0;
         }
     </style>
 </head>
-
 <body>
 
     <div class="container">
         <div class="header">
             <h1>传晋风红韵，绘实践新篇</h1>
-            <h2>——中北大学“晋风红韵”暑期社会实践团深入山西</h2>
         </div>
 
         <div class="content">
             <div class="text-section">
-                <div class="article-title">重走红色足迹、追溯红色记忆</div>
-                <div class="article-subtitle">实践团深入山西多地，参观红色教育基地</div>
                 <p>为引导大学生传承红色基因，赓续红色血脉，扎根乡土中国，深入学习新时代新政策下党的理论知识，2024年8月4日，中北大学材料科学与工程学院“晋风红韵”暑期社会实践团深入山西省阳泉市盂县和山西省长治市武乡县多个实践基地，开展为期11天的暑期“三下乡”社会实践活动。</p>
+                <p>重走红色足迹、追溯红色记忆。在中北大学材料科学与工程学院团委书记郝诗韵老师的带队下，实践团参观了多个红色教育实践基地。走进阳泉市盂县，实践团成员参观了盂县人民武装部工作使馆、百团大战纪念馆、梁家寨革命烈士纪念馆、石家塔村县委县政府旧址及盂县非遗陶瓷纪念馆。走进“八路军的故乡，子弟兵的摇篮”武乡县，实践团的成员参观了八路军太行纪念馆、八路军文化园以及革命圣地砖壁村，王家峪八路军总部旧址，并在此进行宣讲，宣扬八路军在武乡县的红色历史以及光耀千秋的太行精神。“我们在太行山上，山高林又密，兵强马又壮。敌人从哪里进攻，我们就要他在哪里灭亡……”步入八路军太行纪念馆，耳畔便传来这首脍炙人口的《在太行山上》，激昂的旋律瞬间将实践团成员带回那个烽火连天的年代。参观期间，实践团成员在讲解员的带领下认真聆听，多次进行拍照记录。</p>
             </div>
 
             <div class="photo-gallery">
                 <div>
-                    <img src="image1.jpg" alt="实践团在盂县人民武装部工作使馆">
-                    <div class="caption">图为实践团在盂县人民武装部工作使馆</div>
+                    <img src="media/image1.jpeg" alt="实践团在盂县人民武装部工作使馆">
+                    <div class="caption">图为实践团成员在盂县人民武装工作使馆近距离感受过去抗战时所用的大刀</div>
                 </div>
                 <div>
-                    <img src="image2.jpg" alt="实践团在百团大战纪念馆">
-                    <div class="caption">图为实践团在百团大战纪念馆</div>
+                    <img src="media/image2.jpeg" alt="实践团在百团大战纪念馆">
+                    <div class="caption">图为实践团成员在阳泉百团大战纪念馆参观学习</div>
                 </div>
                 <div>
-                    <img src="image3.jpg" alt="盂县非遗陶瓷">
-                    <div class="caption">图为盂县非遗陶瓷</div>
+                    <img src="media/image3.jpeg" alt="盂县非遗陶瓷">
+                    <div class="caption">图为盂县窑陶瓷文创基地创始人高飞向实践团成员介绍盂县非遗陶瓷</div>
                 </div>
-                <!-- More images go here, up to 20 images -->
+                <div>
+                    <img src="media/image4.png" alt="盂县梁家寨革命烈士纪念馆">
+                    <div class="caption">图为实践团成员参观盂县梁家寨革命烈士纪念馆的集体合照</div>
+                </div>
+                <div>
+                    <img src="media/image5.jpeg" alt="石家塔村县委县政府旧址">
+                    <div class="caption">图为实践团成员参观石家塔村县委县政府旧址</div>
+                </div>
+                <div>
+                    <img src="media/image6.jpeg" alt="石家塔村县委县政府旧址展馆">
+                    <div class="caption">图为实践团成员参观石家塔村县委县政府旧址展馆</div>
+                </div>
+                <div>
+                    <img src="media/image7.jpeg" alt="八路军太行纪念馆">
+                    <div class="caption">图为实践团成员在八路军太行纪念馆观赏百团大战战役部署略图</div>
+                </div>
+                <div>
+                    <img src="media/image8.jpeg" alt="砖壁村">
+                    <div class="caption">图为实践团成员在砖壁村观摩当时百团大战作战时的指挥图</div>
+                </div>
+                <div>
+                    <img src="media/image9.jpeg" alt="八路军总部王家峪旧址">
+                    <div class="caption">图为实践团成员参观八路军总部王家峪旧址</div>
+                </div>
+                <div>
+                    <img src="media/image10.jpeg" alt="八路军文化园">
+                    <div class="caption">图为实践团成员在八路军文化园向游客介绍当地的红色历史，以及本次实践团的实践路线和主要目的</div>
+                </div>
             </div>
 
             <div class="text-section">
-                <div class="article-title">访谈红色人物，挖掘红色故事</div>
-                <div class="article-subtitle">与红色人物贾尚恕爷爷的对话</div>
-                <p>阳泉市盂县的贾尚恕爷爷是红色故事的亲历者。贾尚恕爷爷于1947年3月入伍，如今已93岁高龄，曾担任五六○五部队高炮六十三师六○七团一连一排排长，参加过抗美援朝、解放战争及一江山岛剿匪斗争等战役。</p>
+                <p>访谈红色人物，挖掘红色故事。阳泉市盂县的贾尚恕爷爷是红色故事的亲历者。贾尚恕爷爷于1947年3月入伍，如今已93岁高龄。曾担任五六○五部队高炮六十三师六○七团一连一排排长，参加过抗美援朝、解放战争及一江山岛剿匪斗争等战役。在抗美援朝战役中，贾尚恕爷爷所在的炮兵连负责保护大桥，防止敌机轰炸桥梁，作战期间共歼灭七架美军飞机，保护了司令部的安全。细心的同学们观察到了贾爷爷手臂上还有遗留的伤疤，面对实践团的同学们，贾尚恕爷爷激动地向大家讲述起作战时的真实经历。实践团的同学们陪着贾尚恕爷爷聊天，一同合唱《中国人民志愿军战歌》。除此之外，实践团的同学为其送上米、面、油及杂粮等慰问品，送去新一代青年的关怀。老兵贾尚恕爷爷握着一位同学的手说，年轻人是祖国的未来，新一代青年要在中国共产党的带领下不惧艰险、勇往直前，敢打仗、打胜仗。</p>
             </div>
 
             <div class="photo-gallery">
                 <div>
-                    <img src="image4.jpg" alt="贾尚恕爷爷向实践团成员讲述">
-                    <div class="caption">图为贾尚恕爷爷向实践团成员讲述作战经历</div>
+                    <img src="media/image11.jpeg" alt="贾尚恕爷爷展示伤疤">
+                    <div class="caption">图为贾尚恕爷爷向实践团成员指出过去作战时的伤疤</div>
                 </div>
                 <div>
-                    <img src="image5.jpg" alt="实践团与贾尚恕爷爷合影">
-                    <div class="caption">图为实践团与贾尚恕爷爷合影</div>
+                    <img src="media/image12.jpeg" alt="贾尚恕爷爷与实践团成员合唱">
+                    <div class="caption">图为贾尚恕爷爷与实践团成员一起合唱《中国人民志愿军战歌》</div>
+                </div>
+                <div>
+                    <img src="media/image13.png" alt="贾尚恕爷爷与实践团成员合影">
+                    <div class="caption">图为实践团成员与贾尚恕爷爷的合影留念</div>
                 </div>
             </div>
 
             <div class="text-section">
-                <div class="article-title">体悟红色力量、助力乡村振兴</div>
-                <div class="article-subtitle">实践团深入盂县，感受现代农业与乡村振兴</div>
-                <p>实践团在盂县华北奕丰生态园深入参观与学习现代农业的创新培育方式，感受新时代家乡的发展。之后，深入乡土深处，观新时代下盂县猫铺村的乡村振兴之路。</p>
+                <p>体悟红色力量、助力乡村振兴。实践团在盂县华北奕丰生态园深入参观与学习现代农业的创新培育方式，感受新时代家乡的发展。之后，深入乡土深处，观新时代下盂县猫铺村的乡村振兴之路。猫铺村作为山西省乡村振兴的代表村庄，通过科学谋划、探索创新，依托绿水青山的“美丽资源”，重点打造现代乡村旅游业，开辟了“农业强村、生态立村、文旅兴村”的发展思路，从过去的单一种植业逐步转型为多元融合发展。实践团深入当地花椒产业的加工工厂，亲自体验各类花椒产品的加工处理过程，完成了花椒产品从分类、研磨到封装的全部过程。实践团成员深刻地体会到了劳作的艰辛以及新时代新政策下乡村的新变化。猫铺村史书记对中北大学“晋风红韵”实践团做出了高度评价，赞扬中北学子有理想，敢担当。</p>
             </div>
 
             <div class="photo-gallery">
                 <div>
-                    <img src="image6.jpg" alt="史书记向实践团成员介绍">
-                    <div class="caption">图为史书记向实践团成员介绍猫铺村的情况</div>
+                    <img src="media/image14.jpeg" alt="猫铺村史书记">
+                    <div class="caption">图为猫铺村的史书记向实践团成员们介绍村里的相关情况，据史书记介绍，猫铺村的核桃产业是当地重要的经济来源之一</div>
                 </div>
                 <div>
-                    <img src="image7.jpg" alt="实践团在猫铺村">
-                    <div class="caption">图为实践团在猫铺村进行实践活动</div>
+                    <img src="media/image15.jpeg" alt="猫铺村核桃包装">
+                    <div class="caption">图为实践团成员在猫铺村亲自进行核桃的包装</div>
+                </div>
+                <div>
+                    <img src="media/image16.jpeg" alt="华北奕丰生态园">
+                    <div class="caption">图为实践团成员在盂县华北奕丰生态园深入参观与学习现代农业的创新培育方式，感受新时代家乡的发展</div>
+                </div>
+                <div>
+                    <img src="media/image17.jpeg" alt="华北奕丰生态园合影">
+                    <div class="caption">图为实践团成员在盂县华北奕丰生态园的合影留念</div>
                 </div>
             </div>
 
             <div class="text-section">
-                <div class="article-title">总结与展望</div>
                 <p>实践时间虽短，但团队负责人张瑾凝同学感受颇丰：“这次深入乡村，我亲自体会到了劳作的艰辛，和贾爷爷接触，我直观地感受到了战争的残酷和我们先辈英勇无畏的精神。我们要向他们学习，紧紧跟党走，为新时代做出自己的贡献！”</p>
+                <p>红色，是中国共产党、中华人民共和国最鲜亮的底色。在伟大祖国960多万平方公里的广袤大地上，红色资源星罗棋布，红色基因代代相传。每一寸鲜血浸染的红色热土，每一段感人至深的红色往事，都凝结着艰苦卓绝的牺牲奉献，铭刻着气吞山河的壮丽辉煌，是全党全国各族人民弥足珍贵的精神财富。红色江山，热血铸就；红色基因，代代相传。</p>
+            </div>
+
+            <div class="photo-gallery">
+                <div>
+                    <img src="media/image18.jpeg" alt="盂县人民武装部合影">
+                    <div class="caption">图为实践团所有成员在盂县人民武装部的合影</div>
+                </div>
+                <div>
+                    <img src="media/image19.jpeg" alt="太行工业学院旧址合影">
+                    <div class="caption">图为实践团成员参观太行工业学院旧址的合影</div>
+                </div>
+            </div>
+
+            <div class="text-section">
+                <p>中北大学材料科学与工程学院“晋风红韵”暑期社会实践团立足三晋大地，通过探寻红色圣地、聆听乡村声音，提高社会实践能力、磨练意志品质、了解国情社情、增强社会责任感和使命感。奋进在全面建设社会主义现代化国家新征程上，作为新时代的青年，应当用好红色资源，传承好红色基因，赓续红色血脉，扎根乡土中国深处，感悟时代发展，领略太行精神，立志为建设中国特色社会主义，实现中华民族伟大复兴做出中北大学材料学子的贡献。</p>
             </div>
         </div>
 
         <div class="footer">
-            © 2024 中北大学材料科学与工程学院 “晋风红韵”暑期社会实践团
+            <p>通讯员 张瑾凝 鄯婷</p>
         </div>
     </div>
 
